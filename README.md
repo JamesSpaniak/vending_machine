@@ -75,7 +75,7 @@ See table for more information regarding setting customization.
 ## Implementation Details
 Started with simple classes for Coins and Items. The Coin class is attributed by value and a display name. An instance of an Item has a price (represented by value), and display name. The MoneyManager and Inventory classes hold instances of the Coin and Item respectively to represent quantities, and contain logic to handle viewing data, checkouts, payments, and refills.
 
-Calculation of the coins returned after a sale uses a greedy algorithm approace. The coins are ordered by value (based on initial setup), from largest to smallest, and iterated to select the largest denomination of coin which is not greater than the remaining amount to be made. If the MoneyManager's stock does not support making change for the value requested it can offer the largest it can give.
+Calculation of the coins returned after a sale uses a greedy algorithm approach. The coins are ordered by value (based on initial setup), from largest to smallest, and iterated to select the largest denomination of coin which is not greater than the remaining amount to be made. If the MoneyManager's stock does not support making change for the value requested it can offer the largest it can give.
 
 The Cart class describes the current list of the items the user is purchasing. The class has information for number of items selected and value of items in the cart.
 
@@ -90,8 +90,8 @@ This vending machine uses the interactive command line prompt, tty-prompt. The D
 - Display is an interface between tty-prompt and vending machine.
 - Project configuration will be stored in settings.yaml file.
 
-## Future Improvements
-Future improvements if I had more time to work on this project
+## Product Roadmap
+Future improvements to add if given more time to work on this project
 
 - Keep a history of transactions.
 - Options to view most popular products, most restocked items, items with largest out of stock time, etc.
