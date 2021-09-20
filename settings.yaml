@@ -1,0 +1,49 @@
+---
+inventory:
+  default_quantity: 2
+  max_quantity_per_item: 15
+  initial_products:
+    - display_name: "Coca Cola (20oz)"
+      price: 2.00
+    - display_name: "Sprite (20oz)"
+      price: 2.55
+    - display_name: "Barqs Root Beer (12oz)"
+      price: 3.50
+    - display_name: "Fresca (12oz)"
+      price: 2.30
+    - display_name: "Orange Juice (16oz)"
+      price: 3.00
+    - display_name: "Bottled Water"
+      price: 1.25
+      initial_quantity: 10
+    - display_name: "Grilled Chicken Wrap"
+      price: 7.75
+    - display_name: "Buffalo Chicken Wrap"
+      price: 8.37
+      initial_quantity: 0
+money_manager:
+  default_quantity: 5
+  max_quantity_per_coin: 50
+  accepted_coins:
+    - display_name: "$20"
+      value: 20.00
+      initial_quantity: 0
+    - display_name: "$10"
+      value: 10.00
+      initial_quantity: 0
+    - display_name: "$5"
+      value: 5.00
+    - display_name: "$2"
+      value: 2.00
+      initial_quantity: 0
+    - display_name: "$1"
+      value: 1.00
+    - display_name: "25c"
+      value: 0.25
+    - display_name: "10c"
+      value: 0.10
+    - display_name: "5c"
+      value: 0.05
+    - display_name: "1c"
+      value: 0.01
+      initial_quantity: 25
